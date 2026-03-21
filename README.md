@@ -75,6 +75,7 @@ Bruno,67890,5432
 Carla,11111,2222
 
 📄 Arquivo de saída gerado (mensagens.csv)
+
 Nome,Mensagem
 Ana,"Olá Ana, sua conta 12345 está vinculada ao cartão 9876."
 Bruno,"Olá Bruno, sua conta 67890 está vinculada ao cartão 5432."
