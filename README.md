@@ -2,6 +2,7 @@
 Explorando IA Generativa em um Pipeline de ETL com Python
 
 🔹 Lista no Python 
+
 # Lista de usuários fictícios
 usuarios = [
     {"nome": "Ana", "conta": "12345", "cartao": "9876"},
@@ -10,6 +11,7 @@ usuarios = [
 ]
 
 # Gera mensagens personalizadas
+
 for u in usuarios:
     mensagem = f"Olá {u['nome']}, sua conta {u['conta']} está vinculada ao cartão {u['cartao']}."
     print(mensagem)
@@ -19,11 +21,13 @@ Olá Bruno, sua conta 67890 está vinculada ao cartão 5432.
 Olá Carla, sua conta 11111 está vinculada ao cartão 2222.
 
 🔹 Arquivo CSV 
+
 📄 Exemplo de arquivo clientes.csv:
 Nome,Conta,Cartao
 Ana,12345,9876
 Bruno,67890,5432
 Carla,11111,2222
+
 📜 Código em Python:
 import csv
 
@@ -64,16 +68,19 @@ with open("clientes.csv", newline='', encoding="utf-8") as arquivo:
             escritor.writerow({"Nome": nome, "Mensagem": mensagem})
 ________________________________________
 📄 Arquivo de entrada (clientes.csv)
+
 Nome,Conta,Cartao
 Ana,12345,9876
 Bruno,67890,5432
 Carla,11111,2222
+
 📄 Arquivo de saída gerado (mensagens.csv)
 Nome,Mensagem
 Ana,"Olá Ana, sua conta 12345 está vinculada ao cartão 9876."
 Bruno,"Olá Bruno, sua conta 67890 está vinculada ao cartão 5432."
 Carla,"Olá Carla, sua conta 11111 está vinculada ao cartão 2222."
 ________________________________________
+
 •	Extração: leitura do CSV com os dados dos clientes.
 •	Transformação: geração das mensagens personalizadas.
 •	Carregamento: gravação das mensagens em um novo CSV.
