@@ -2,8 +2,8 @@
 # 💊 Relatório de Implementação de Serviços AWS - Farmácia
 
 **Data:** Março/2026  
-**Empresa:** [Nome da Farmácia]  
-**Responsável:** [Seu Nome]
+**Empresa:** [Droga tem Tudo]  
+**Responsável:** [Aurélio]
 
 ---
 
@@ -21,19 +21,19 @@ O projeto foi dividido em 3 etapas principais:
 - **Ferramenta:** Amazon S3  
 - **Foco:** Armazenamento seguro e escalável de dados da farmácia.  
 - **Caso de Uso:** Substituição de servidores locais por armazenamento em nuvem, reduzindo custos de infraestrutura.  
-- **Arquivo de Banco de Dados:** [`farmacia_db.sql`](./farmacia_db.sql)
+- **Arquivo de Banco de Dados:**
 
 ### Etapa 2: Processamento e Relatórios
 - **Ferramenta:** AWS Lambda  
 - **Foco:** Automação de processos sem necessidade de servidores dedicados.  
 - **Caso de Uso:** Geração automática de relatórios de vendas e estoque.  
-- **Exemplo de Script:** [`lambda_relatorio.py`](./lambda_relatorio.py)
+- **Exemplo de Script:** 
 
 ### Etapa 3: Visualização e Interface
 - **Ferramenta:** Amazon QuickSight  
 - **Foco:** Dashboards interativos para análise de custos e vendas.  
 - **Caso de Uso:** Monitoramento em tempo real dos indicadores da farmácia.  
-- **Link para Template Figma:** [📊 Dashboard Farmácia no Figma](https://www.figma.com/template-exemplo-farmacia)
+- **Link para Template Figma:** [📊 Dashboard Farmácia no Figma](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Redu%C3%A7%C3%A3o%20dos%20Custos%20em%20Farm%C3%A1cias%20com%20AWS/input/Dashboard%20Farm%C3%A1cia%20A.png)
 
 ---
 
@@ -48,14 +48,12 @@ Recomenda-se a continuidade do uso das ferramentas e a exploração de novos ser
 
 ---
 
-## 📎 Anexos
+## 📎 Anexo
 
-- [`farmacia_db.sql`](./farmacia_db.sql) – Estrutura do banco de dados.  
-- [`lambda_relatorio.py`](./lambda_relatorio.py) – Script de automação de relatórios.  
 - [📊 Template Figma](https://www.figma.com/template-exemplo-farmacia) – Interface de dashboards.  
-- Planilha de custos comparativos: [`custos_farmacia.xlsx`](./custos_farmacia.xlsx)
+
 
 ---
 
 **Assinatura do Responsável pelo Projeto:**  
-[Seu Nome]
+[Aurélio]
