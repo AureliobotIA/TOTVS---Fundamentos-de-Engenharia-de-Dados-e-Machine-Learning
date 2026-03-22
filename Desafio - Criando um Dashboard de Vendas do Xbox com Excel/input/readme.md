@@ -4,6 +4,8 @@ Este repositório contém dados de assinaturas e passes de jogos, organizados em
 
 ## 📂 Estrutura dos Dados
 
+![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot%20Base%20Dados.JPG)
+
 A planilha inclui as seguintes colunas:
 
 - **Subscription Price**: Valor da assinatura principal (mensal, trimestral ou anual).
