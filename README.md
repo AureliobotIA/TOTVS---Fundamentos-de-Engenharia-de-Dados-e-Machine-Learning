@@ -2,7 +2,6 @@
 
 # 🛣️ Roadmap de Engenharia de Dados e Machine Learning
 
-![Gráfico de Assinaturas](assinaturas_por_tipo.png)
 ## 🚀 Etapas da Trilha
 
 ### 1. Fundamentos
@@ -51,5 +50,7 @@
 ---
 
 ## 🎯 Objetivo Final
+
+![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Roadmap%20Engenharia%20%20ETL%20TOTVS.png)
 
 Formar uma base sólida em **engenharia de dados e machine learning**, aplicando cada conceito em projetos práticos que simulam desafios reais do mercado, e evoluir até a integração de **IA generativa** em pipelines corporativos.
