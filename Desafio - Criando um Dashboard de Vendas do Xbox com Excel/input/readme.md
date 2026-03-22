@@ -92,7 +92,7 @@ ________________________________________
 
 ## 📈 Análises Complementares
 
-![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot.JPG)
+![Gráfico de Assinaturas]([https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot.JPG](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot.JPG))
 
 Além dos cálculos básicos, foram gerados gráficos para melhor visualização dos dados:
 
