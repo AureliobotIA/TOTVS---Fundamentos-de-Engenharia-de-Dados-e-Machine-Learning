@@ -6,6 +6,7 @@ Este repositório contém dados de assinaturas e passes de jogos, organizados em
 
 ![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot%20Base%20Dados.JPG)
 
+![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot.JPG)
 A planilha inclui as seguintes colunas:
 
 - **Subscription Price**: Valor da assinatura principal (mensal, trimestral ou anual).
@@ -92,9 +93,6 @@ ________________________________________
 
 ## 📈 Análises Complementares
 
-
-![Gráfico de Assinaturas](https://github.com/AureliobotIA/TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning/blob/main/Desafio%20-%20Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/input/DashBoard%20Copilot.JPG)
-
 Além dos cálculos básicos, foram gerados gráficos para melhor visualização dos dados:
 
 - **Distribuição por Tipo de Assinatura**: mostra a proporção entre planos Mensais, Trimestrais e Anuais.
@@ -167,8 +165,6 @@ o	Distribuição dos tipos de assinatura (barras).
 o	Percentual de assinaturas com cupons (pizza).
 o	Valor médio dos passes EA Play e Minecraft (barras).
 •	Salva os gráficos como imagens (.png) para você incluir no repositório.
-
-
 
 # 📊 Análise de Assinaturas
 
