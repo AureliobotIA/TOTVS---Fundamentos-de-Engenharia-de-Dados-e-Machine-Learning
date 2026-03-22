@@ -1,88 +1,55 @@
 # TOTVS---Fundamentos-de-Engenharia-de-Dados-e-Machine-Learning
 
-## Explorando IA Generativa em um Pipeline de ETL com Python
+# 🛣️ Roadmap de Engenharia de Dados e Machine Learning
 
-🔹 Lista no Python 
+![Gráfico de Assinaturas](assinaturas_por_tipo.png)
+## 🚀 Etapas da Trilha
 
-# Lista de usuários fictícios
-usuarios = [
-    {"nome": "Ana", "conta": "12345", "cartao": "9876"},
-    {"nome": "Bruno", "conta": "67890", "cartao": "5432"},
-    {"nome": "Carla", "conta": "11111", "cartao": "2222"},
-]
+### 1. Fundamentos
+- Python para manipulação de dados (Pandas, NumPy)
+- Bancos de dados relacionais (SQL)
+- Projeto: [`totvs_db.sql`](./totvs_db.sql)
 
-# Gera mensagens personalizadas
+---
 
-for u in usuarios:
-    mensagem = f"Olá {u['nome']}, sua conta {u['conta']} está vinculada ao cartão {u['cartao']}."
-    print(mensagem)
-Saída:
-Olá Ana, sua conta 12345 está vinculada ao cartão 9876.
-Olá Bruno, sua conta 67890 está vinculada ao cartão 5432.
-Olá Carla, sua conta 11111 está vinculada ao cartão 2222.
+### 2. Cloud e AWS
+- Armazenamento com Amazon S3
+- Automação com AWS Lambda
+- Projeto: [`pipeline_processamento.py`](./pipeline_processamento.py)
 
-🔹 Arquivo CSV 
+---
 
-📄 Exemplo de arquivo clientes.csv:
-Nome,Conta,Cartao
-Ana,12345,9876
-Bruno,67890,5432
-Carla,11111,2222
+### 3. ETL e Dashboards
+- Construção de pipelines ETL (Apache Spark)
+- Visualização com QuickSight / Power BI
+- Template: [📊 Dashboard Figma](https://www.figma.com/template-exemplo-totvs)
 
-📜 Código em Python:
-import csv
+---
 
-# Lê o arquivo CSV
-with open("clientes.csv", newline='', encoding="utf-8") as arquivo:
-    leitor = csv.DictReader(arquivo)
-    for linha in leitor:
-        nome = linha["Nome"]
-        conta = linha["Conta"]
-        cartao = linha["Cartao"]
-        mensagem = f"Olá {nome}, sua conta {conta} está vinculada ao cartão {cartao}."
-        print(mensagem)
-Saída:
-Olá Ana, sua conta 12345 está vinculada ao cartão 9876.
-Olá Bruno, sua conta 67890 está vinculada ao cartão 5432.
-Olá Carla, sua conta 11111 está vinculada ao cartão 2222.
+### 4. Machine Learning
+- Modelos preditivos com Scikit-learn
+- Redes neurais com TensorFlow
+- Notebook: [`ml_model.ipynb`](./ml_model.ipynb)
 
-📜 Código em Python
-import csv
+---
 
-# Lê o arquivo CSV de entrada
-with open("clientes.csv", newline='', encoding="utf-8") as arquivo:
-    leitor = csv.DictReader(arquivo)
+### 5. IA Generativa e LLMs
+- Integração de modelos de linguagem em pipelines
+- Aplicações: sumarização de dados, relatórios automáticos, insights preditivos
+- Projeto avançado: [`llm_pipeline.ipynb`](./llm_pipeline.ipynb)
 
-    # Cria/abre o arquivo de saída
-    with open("mensagens.csv", "w", newline='', encoding="utf-8") as saida:
-        campos = ["Nome", "Mensagem"]
-        escritor = csv.DictWriter(saida, fieldnames=campos)
-        escritor.writeheader()
+---
 
-        # Para cada linha do arquivo de entrada, gera a mensagem e salva
-        for linha in leitor:
-            nome = linha["Nome"]
-            conta = linha["Conta"]
-            cartao = linha["Cartao"]
+## 📈 Evolução da Jornada
 
-            mensagem = f"Olá {nome}, sua conta {conta} está vinculada ao cartão {cartao}."
-            escritor.writerow({"Nome": nome, "Mensagem": mensagem})
-________________________________________
-📄 Arquivo de entrada (clientes.csv)
+➡️ **Python & SQL** →  
+➡️ **AWS & Cloud** →  
+➡️ **ETL & Dashboards** →  
+➡️ **Machine Learning** →  
+➡️ **IA Generativa & LLMs**
 
-Nome,Conta,Cartao
-Ana,12345,9876
-Bruno,67890,5432
-Carla,11111,2222
+---
 
-📄 Arquivo de saída gerado (mensagens.csv)
+## 🎯 Objetivo Final
 
-Nome,Mensagem
-Ana,"Olá Ana, sua conta 12345 está vinculada ao cartão 9876."
-Bruno,"Olá Bruno, sua conta 67890 está vinculada ao cartão 5432."
-Carla,"Olá Carla, sua conta 11111 está vinculada ao cartão 2222."
-________________________________________
-
-•	Extração: leitura do CSV com os dados dos clientes.
-•	Transformação: geração das mensagens personalizadas.
-•	Carregamento: gravação das mensagens em um novo CSV.
+Formar uma base sólida em **engenharia de dados e machine learning**, aplicando cada conceito em projetos práticos que simulam desafios reais do mercado, e evoluir até a integração de **IA generativa** em pipelines corporativos.
